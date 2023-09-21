@@ -1,0 +1,185 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  background-color: steelblue;
+}
+header {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 0px;
+  gap: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px 2px whitesmoke;
+}
+label {
+  color: #0b3d91;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 15px;
+}
+label:first-child {
+  margin-top: 0;
+}
+input {
+  border: 1px solid #0891b2;
+  padding: 8px;
+  border-radius: 5px;
+}
+button {
+  margin-top: 10px;
+  padding: 12px 17px;
+  border: none;
+  background-color: #fc3d21;
+  color: #ecfeff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+img {
+  width: 140px;
+  border-radius: 50px;
+}
+
+.wave1 {
+  height: 180px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background: url("https://2.bp.blogspot.com/-1jSZdqj1ssE/Xn2hsqQogxI/AAAAAAAAU14/q7Tii6dbcJwO747sjQ1sfPeM6laFhvQVwCK4BGAYYCw/s1600/wave1.png")
+    0 0 repeat-x;
+  -webkit-animation: wave-animation1 20s infinite linear; /* Safari 4+ */
+  -moz-animation: wave-animation1 20s infinite linear; /* Fx 5+ */
+  -o-animation: wave-animation1 20s infinite linear; /* Opera 12+ */
+  animation: wave-animation1 20s infinite linear; /* IE 10+ */
+}
+
+.wave2 {
+  height: 180px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background: url("https://1.bp.blogspot.com/-4SEctsJEQBg/Xn2ifdzUbfI/AAAAAAAAU2A/BZTVE6JxDpkJq98VfNkCZMWj1e3jONjXQCLcBGAsYHQ/s1600/wavetrans.png")
+    0 0 repeat-x;
+  -webkit-animation: wave-animation1 20s infinite linear; /* Safari 4+ */
+  -moz-animation: wave-animation1 20s infinite linear; /* Fx 5+ */
+  -o-animation: wave-animation1 20s infinite reverse linear; /* Opera 12+ */
+  animation: wave-animation1 20s infinite reverse linear; /* IE 10+ */
+}
+
+.wave3 {
+  height: 180px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background: url("https://1.bp.blogspot.com/-OAiccVrQc0k/Xn2lrKcD6nI/AAAAAAAAU2M/uAvibBARzkcpmzHCsJyL5B5UDQNFU1YmgCLcBGAsYHQ/s1600/wave3.png")
+    0 0 repeat-x;
+  -webkit-animation: wave-animation1 15s infinite reverse linear; /* Safari 4+ */
+  -moz-animation: wave-animation1 15s infinite reverse linear; /* Fx 5+ */
+  -o-animation: wave-animation1 15s infinite reverse linear; /* Opera 12+ */
+  animation: wave-animation1 15s infinite reverse linear; /* IE 10+ */
+}
+
+@-webkit-keyframes wave-animation1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1601px 0;
+  }
+}
+@-moz-keyframes wave-animation1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1601px 0;
+  }
+}
+@-o-keyframes wave-animation1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1601px 0;
+  }
+}
+@keyframes wave-animation1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1601px 0;
+  }
+}
+/* @keyframes moveSvg {
+  0% {
+    offset-distance: 0%;
+  }
+  25% {
+    background: #6c6ce5;
+  }
+  75% {
+    background: #ffd15c;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+@keyframes rotate {
+  50% {
+    transform: rotate(360deg);
+    margin-left: 0;
+  }
+  50.0001%,
+  100% {
+    margin-left: -60px;
+  }
+} */
+/* @keyframes move {
+  0%,
+  50% {
+    left: -8px;
+  }
+  25% {
+    background: #ffd15c;
+  }
+  75% {
+    background: #6c6ce5;
+  }
+  50.0001%,
+  100% {
+    left: auto;
+    right: -8px;
+  }
+} */
+/* @keyframes drop1 {
+  100% {
+    transform: translate(32px, 8px) scale(0);
+  }
+}
+@keyframes drop2 {
+  0% {
+    transform: translate(0, 0) scale(0.9);
+  }
+  100% {
+    transform: translate(32px, -8px) scale(0);
+  }
+} */

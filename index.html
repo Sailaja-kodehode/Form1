@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- <script src="index.js" defer></script> -->
+    <title>form</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img.jpg" />
+    </header>
+    <main>
+      <!-- form here -->
+      <form id="login-form">
+        <label for="astronautName">Name</label>
+        <input
+          type="text"
+          id="astronautName"
+          name="astronautName"
+          placeholder="Sailu"
+          required
+        />
+        <label for="astronautEmail"> Email Id:</label>
+        <input
+          type="email"
+          id="astronautEmail"
+          name="astronautEmail"
+          placeholder="Abc@gmail.com"
+          required
+        />
+        <label>password</label>
+        <input
+          type="password"
+          id="astronautPassword"
+          name="astronautPassword"
+          placeholder="****"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+      <div class="wave1"></div>
+      <div class="wave3"></div>
+      <div class="wave2"></div>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
